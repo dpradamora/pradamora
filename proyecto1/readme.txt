@@ -5,9 +5,8 @@ datetime STRING Hire datetime in ISO format
 department_id INTEGER Id of the department which the employee was hired for
 job_id INTEGER Id of the job which the employee was hired for
 
-4535,Marcelo Gonzalez,2021-07-27T16:02:08Z,1,2
-4572,Lidia Mendez,2021-07-27T19:04:09Z,1,2
-File hired_employees.csv should be attached by recruiter
+
+File hired_employees.csv  
 departments.csv
 id INTEGER Id of the department
 department STRING Name of the department
