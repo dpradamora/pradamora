@@ -31,13 +31,6 @@ def populate_table_from_csv(conn, table_name, csv_file_path):
     df = pd.read_csv(csv_file_path)
     df.to_sql(table_name, conn, if_exists='append', index=False)
     
-""" conn = database.create_connection()
-database.populate_table_from_csv(conn, 'table1', 'table1.csv')
-database.populate_table_from_csv(conn, 'table2', 'table2.csv')
-database.populate_table_from_csv(conn, 'table3', 'table3.csv')
-database.close_connection(conn)"""
-
-
 
 def create_tables():
     conn = sqlite3.connect('employee')  # Reemplaza 'my_database.db' con el nombre de tu base de datos
