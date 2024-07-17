@@ -20,3 +20,6 @@ Clarifications
 ● You decide the origin where the CSV files are located.
 ● You decide the destination database type, but it must be a SQL database.
 ● The CSV file is comma separated.
+
+------
+corregi los csv por no tenian los nombre de las columnas 
