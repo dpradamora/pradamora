@@ -1,5 +1,5 @@
 from flask import Flask, jsonify
-import database
+import proyecto1.database as database
 
 app = Flask(__name__)
 
