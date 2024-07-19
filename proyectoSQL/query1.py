@@ -38,7 +38,7 @@ except Exception as e:
     print(f"An error occurred: {str(e)}")
 
 # Save the results to a CSV file
-filename = '/Users/daniel.prada/pradamora/proyectoSQL/results.csv'
+filename = '/Users/daniel.prada/pradamora/proyectoSQL/results1.csv'
 with open(filename, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(['Department', 'Job', 'Q1', 'Q2', 'Q3', 'Q4'])

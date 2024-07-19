@@ -1,3 +1,5 @@
+#brings back name of tables and columns so we can use them in the API
+
 import sqlite3
 
 def list_tables():
@@ -15,40 +17,3 @@ def list_tables():
 list_tables()
 
 
-
-def create_tables():
-    conn = sqlite3.connect('employee.db')  # Reemplaza 'employee.db' con el nombre de tu base de datos
-    c = conn.cursor()
-
-    # Crear la tabla hired_employees
-    c.execute('''
-        CREATE TABLE IF NOT EXISTS hired_employees (
-            id INTEGER,
-            name TEXT,
-            datetime TEXT,
-            department_id INTEGER,
-            job_id INTEGER
-        )
-    ''')
-
-    # Crear la tabla departments
-    c.execute('''
-        CREATE TABLE IF NOT EXISTS departments (
-            id INTEGER,
-            department TEXT
-        )
-    ''')
-
-    # Crear la tabla jobs
-    c.execute('''
-        CREATE TABLE IF NOT EXISTS jobs (
-            id INTEGER,
-            job TEXT
-        )
-    ''')
-
-    conn.commit()
-    conn.close()
-
-create_tables()
-list_tables()
