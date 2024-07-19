@@ -1,6 +1,5 @@
 import sqlite3
 import pandas as pd
-import database
 from flask import Flask, jsonify
 import pandas as pd
 import csv
@@ -10,18 +9,6 @@ def create_connection():
     conn = sqlite3.connect('employee.db')
     print(conn)
     return conn
-
-
-#def create_table(conn):
-    c = conn.cursor()
-    c.execute('''
-        CREATE TABLE IF NOT EXISTS users(
-            id INTEGER PRIMARY KEY,
-            name TEXT,
-            email TEXT UNIQUE
-        )
-    ''')
-    conn.commit()
 
 
 def add_user(conn, name, email):
@@ -56,6 +43,7 @@ def add_data_from_csv(conn, table_name, csv_file):
 def create_tables():
     conn = sqlite3.connect('employee.db')  
     c = conn.cursor()
+#creacion de las tres tablas del proyecto
 
     #  hired_employees
     c.execute('''
@@ -85,10 +73,10 @@ def create_tables():
     ''')
     
 def list_tables():
-    conn = sqlite3.connect('employee.db')  # Reemplaza 'my_database.db' con el nombre de tu base de datos
+    conn = sqlite3.connect('employee.db')  
     c = conn.cursor()
 
-    # Consulta para listar todas las tablas en la base de datos
+   
     c.execute("SELECT name FROM sqlite_master WHERE type='table';")
 
     print(c.fetchall())
@@ -96,6 +84,7 @@ def list_tables():
     conn.close()
 
 app = Flask(__name__)
+
 
 @app.route('/hired_employees')
 def hired_employees():
@@ -133,11 +122,23 @@ def jobs():
 
     return jsonify(jobs)
 
+@app.route('/tables')
+def tables():
+    conn = sqlite3.connect('employee.db')
+    c = conn.cursor()
+
+    c.execute("SELECT name FROM sqlite_master WHERE type='table';")
+    tables = c.fetchall()
+
+    conn.close()
+
+    tables = [table[0] for table in tables]
+
+    return jsonify(tables)
+
 create_tables()
-# add_data_from_csv()  # Commented out this line
 
 #csv files
-
 conn = sqlite3.connect('employee.db')
 add_data_from_csv(conn, 'hired_employees', '/Users/daniel.prada/Downloads/hired_employees.csv')
 add_data_from_csv(conn, 'departments', '/Users/daniel.prada/Downloads/departments.csv')
