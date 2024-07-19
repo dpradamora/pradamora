@@ -46,4 +46,4 @@ def create_random_csv(file_name, num_records):
             writer.writerow([name, datetime, department_id, job_id])
 
 # Create random  
-create_random_csv('prueba1.csv', 1000)
+create_random_csv('/Users/daniel.prada/pradamora/proyectoSQL/prueba1.csv', 1000)
