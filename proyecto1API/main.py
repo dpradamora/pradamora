@@ -1,9 +1,18 @@
 import sqlite3
 import pandas as pd
+import database
+import sqlite3
+import csv
+from flask import Flask, jsonify
+import sqlite3
+from flask import Flask, jsonify
+import pandas as pd
+import csv
+import sqlite3
 
 
 def create_connection():
-    conn = sqlite3.connect('employee')
+    conn = sqlite3.connect('employee.db')
     print(conn)
     return conn
 
@@ -30,13 +39,27 @@ def close_connection(conn):
 def populate_table_from_csv(conn, table_name, csv_file_path):
     df = pd.read_csv(csv_file_path)
     df.to_sql(table_name, conn, if_exists='append', index=False)
-    
 
-def create_tables():
-    conn = sqlite3.connect('employee')  # Reemplaza 'my_database.db' con el nombre de tu base de datos
+
+def add_data_from_csv(conn, table_name, csv_file):
     c = conn.cursor()
 
-    # Crear la tabla hired_employees
+    with open(csv_file, 'r') as f:
+        reader = csv.reader(f)
+        columns = next(reader) 
+        columns_str = "\", \"".join(columns)
+        query = f'INSERT INTO {table_name} ("{columns_str}") VALUES ({", ".join("?" for _ in columns)})'
+
+        for row in reader:
+            c.execute(query, row)
+
+    conn.commit()  
+
+def create_tables():
+    conn = sqlite3.connect('employee.db')  
+    c = conn.cursor()
+
+    #  hired_employees
     c.execute('''
         CREATE TABLE IF NOT EXISTS hired_employees (
             id INTEGER,
@@ -47,7 +70,7 @@ def create_tables():
         )
     ''')
 
-    # Crear la tabla departments
+    #  departments
     c.execute('''
         CREATE TABLE IF NOT EXISTS departments (
             id INTEGER,
@@ -55,7 +78,7 @@ def create_tables():
         )
     ''')
 
-    # Crear la tabla jobs
+    #  jobs
     c.execute('''
         CREATE TABLE IF NOT EXISTS jobs (
             id INTEGER,
@@ -73,12 +96,6 @@ def list_tables():
     print(c.fetchall())
 
     conn.close()
-
-# Llama a la función para listar las tablas
-list_tables()
-
-from flask import Flask, jsonify
-import sqlite3
 
 app = Flask(__name__)
 
@@ -118,5 +135,17 @@ def jobs():
 
     return jsonify(jobs)
 
+create_tables()
+list_tables()
+
+
+#csv files
+
+conn = sqlite3.connect('employee.db')
+add_data_from_csv(conn, 'hired_employees', '/Users/daniel.prada/Downloads/hired_employees.csv')
+add_data_from_csv(conn, 'departments', '/Users/daniel.prada/Downloads/departments.csv')
+add_data_from_csv(conn, 'jobs', '/Users/daniel.prada/Downloads/jobs.csv')
+
 if __name__ == '__main__':
     app.run(debug=True)
+    

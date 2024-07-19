@@ -1,22 +1,21 @@
 import sqlite3
+import sys
+
 
 # Create a connection to the database
 conn = sqlite3.connect('employee.db')
+# Create a cursor object
+cursor = conn.cursor()
 
-# Create a cursor
-c = conn.cursor()
+# Check if the hired_employees table is empty
 
-# Get the names of all tables in the database
-
-c.execute("SELECT name FROM sqlite_master WHERE type='table';")
-tables = c.fetchall()
-print(tables)
-# Print the tables
-for table in tables:
-    print(f"Table: {table[0]}")
-
-
-query = f"""
+cursor.execute("SELECT COUNT(*) FROM hired_employees")
+count = cursor.fetchone()[0]
+if count == 0:
+    print("The hired_employees table is empty.")
+   
+# Execute a query
+query =  f"""
 SELECT d.department, j.job, 
        SUM(CASE WHEN strftime('%m', e.datetime) BETWEEN '01' AND '03' THEN 1 ELSE 0 END) AS Q1,
        SUM(CASE WHEN strftime('%m', e.datetime) BETWEEN '04' AND '06' THEN 1 ELSE 0 END) AS Q2,
@@ -28,16 +27,18 @@ JOIN jobs j ON e.job_id = j.id
 WHERE strftime('%Y', e.datetime) = '2021'
 GROUP BY  d.department, j.job
 """
-
-# Execute the query
-c.execute(query)
-
+cursor.execute(query)
 # Fetch all the results
-results = c.fetchall()
-
+results = cursor.fetchall()
 # Print the results
-for row in results:
-    print(f"Department ID: {row[0]}, Job ID: {row[1]}, Q1: {row[2]}, Q2: {row[3]}, Q3: {row[4]}, Q4: {row[5]}")
 
-# Close the connection to the database
+try:
+        for row in results:
+            print(f"Department ID: {row[0]}, Job ID: {row[1]}, Q1: {row[2]}, Q2: {row[3]}, Q3: {row[4]}, Q4: {row[5]}")
+        
+except Exception as e:
+            print(f"An error occurred: {str(e)}")
+
+
+            # Close the cursor
 conn.close()

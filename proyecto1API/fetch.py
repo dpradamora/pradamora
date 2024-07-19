@@ -12,7 +12,7 @@ c = conn.cursor()
 
 c.execute("SELECT name FROM sqlite_master WHERE type='table';")
 tables = c.fetchall()
-
+print(tables)
 for table in tables:
     table_name = table[0]
     c.execute(f"PRAGMA table_info({table_name});")
