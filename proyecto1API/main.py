@@ -1,14 +1,9 @@
 import sqlite3
 import pandas as pd
 import database
-import sqlite3
-import csv
-from flask import Flask, jsonify
-import sqlite3
 from flask import Flask, jsonify
 import pandas as pd
 import csv
-import sqlite3
 
 
 def create_connection():
@@ -16,7 +11,8 @@ def create_connection():
     print(conn)
     return conn
 
-def create_table(conn):
+
+#def create_table(conn):
     c = conn.cursor()
     c.execute('''
         CREATE TABLE IF NOT EXISTS users(
@@ -27,10 +23,12 @@ def create_table(conn):
     ''')
     conn.commit()
 
+
 def add_user(conn, name, email):
     c = conn.cursor()
     c.execute('INSERT INTO users(name, email) VALUES(?, ?)', (name, email))
     conn.commit()
+
 
 def close_connection(conn):
     conn.close()
@@ -39,8 +37,8 @@ def close_connection(conn):
 def populate_table_from_csv(conn, table_name, csv_file_path):
     df = pd.read_csv(csv_file_path)
     df.to_sql(table_name, conn, if_exists='append', index=False)
-
-
+    
+    
 def add_data_from_csv(conn, table_name, csv_file):
     c = conn.cursor()
 
@@ -136,8 +134,7 @@ def jobs():
     return jsonify(jobs)
 
 create_tables()
-list_tables()
-
+# add_data_from_csv()  # Commented out this line
 
 #csv files
 
@@ -146,6 +143,6 @@ add_data_from_csv(conn, 'hired_employees', '/Users/daniel.prada/Downloads/hired_
 add_data_from_csv(conn, 'departments', '/Users/daniel.prada/Downloads/departments.csv')
 add_data_from_csv(conn, 'jobs', '/Users/daniel.prada/Downloads/jobs.csv')
 
+
 if __name__ == '__main__':
-    app.run(debug=True)
-    
+    app.run(debug=True, port=4500)

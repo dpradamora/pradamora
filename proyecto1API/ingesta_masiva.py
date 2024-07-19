@@ -1,26 +1,60 @@
+
+from faker import Faker
+import random
+from datetime import datetime, timedelta
+import random
+from faker import Faker
 import csv
-import sqlite3
 
-def insert_csv_data_into_db(conn, table_name, csv_file_path):
-    c = conn.cursor()
+def create_random_csv(file_name, num_records):
+    # Create a Faker instance
+    fake = Faker()
+    
+    # Define the column names
+    column_names = ['name', 'datetime', 'department_id', 'job_id']
 
-    # Read the CSV file
-    with open(csv_file_path, 'r') as f:
-        reader = csv.reader(f)
-        columns = next(reader)  # Assumes the first row in your CSV contains column names
-        query = f"INSERT INTO {table_name} ({', '.join(columns)}) VALUES ({', '.join('?' for _ in columns)})"
+    # Open the CSV file in write mode
+    with open(file_name, 'w', newline='') as f:
+        writer = csv.writer(f)
 
-        for row in reader:
-            c.execute(query, row)
+        # Write the column names
+        writer.writerow(column_names)
 
-    conn.commit()
+        # Write num_records random records
+        for _ in range(num_records):
+            # Generate random data
+            name = fake.name()
+            datetime = fake.date_time_this_century()
+            department_id = random.randint(1, 10)
+            job_id = random.randint(1, 10)
 
-# Create a connection to the database
-conn = sqlite3.connect('employee.db') 
+            # Write the data
+            writer.writerow([name, datetime, department_id, job_id])
+def create_random_csv(file_name, num_records):
+    # Create a Faker instance
+    fake = Faker()
+    
+    # Define the column names
+    column_names = ['name', 'datetime', 'department_id', 'job_id']
 
-# Insert CSV data into the database
-# Replace 'table_name' with the name of your table
-# Replace 'path_to_your_file.csv' with the path to your CSV file
-insert_csv_data_into_db(conn, 'table_name', 'path_to_your_file.csv')
+    # Open the CSV file in write mode
+    with open(file_name, 'w', newline='') as f:
+        writer = csv.writer(f)
 
-conn.close()
+        # Write the column names
+        writer.writerow(column_names)
+
+        # Write num_records random records
+        for _ in range(num_records):
+            # Generate random data
+            name = fake.first_name()
+            datetime = fake.date_time_this_century()
+            department_id = random.randint(1, 10)
+            job_id = random.randint(1, 10)
+
+            # Write the data
+            writer.writerow([name, datetime, department_id, job_id])
+
+# Create a CSV file with 1000 random records
+# Replace 'hired_employee.csv' with your desired file name
+create_random_csv('hired_employee.csv', 1000)
