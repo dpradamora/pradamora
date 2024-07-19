@@ -1,4 +1,5 @@
-# pradamora
+"""
+
 fun time
 
 vamos a realizar varios ejercicios 
@@ -22,4 +23,4 @@ Clarifications
 ● The CSV file is comma separated.
 
 ------
-corregi los csv por no tenian los nombre de las columnas 
+
