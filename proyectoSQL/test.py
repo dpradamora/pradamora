@@ -20,12 +20,18 @@ FROM (
 mean_hired = c.fetchone()[0]
 
 # Define your SQL query
-query = f"""
-SELECT dept.id, dept.department, COUNT(*) as num_hired
-FROM hired_employees emp
-JOIN departments dept ON emp.department_id = dept.id
-WHERE strftime('%Y', emp.datetime) = '2021'
-GROUP BY dept.id, dept.department
+query # Replace 'your_table' with the name of your table
+c.execute("PRAGMA table_info(your_table)")
+columns = c.fetchall()
+
+for column in columns:
+    print(column)
+c = f"""
+SELECT d.id, d.department, COUNT(*) as num_hired
+FROM hired_employees e
+JOIN departments d ON e.department_id = d.id
+WHERE strftime('%Y', e.datetime) = '2021'
+GROUP BY dept.id, d.department
 HAVING num_hired > {mean_hired}
 ORDER BY num_hired DESC
 """
