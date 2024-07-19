@@ -1,0 +1,939 @@
+Department,Job,Q1,Q2,Q3,Q4
+Accounting,Account Representative IV,512,0,0,0
+Accounting,Actuary,0,512,0,0
+Accounting,Analyst Programmer,0,0,512,0
+Accounting,Budget/Accounting Analyst III,0,512,0,0
+Accounting,Cost Accountant,0,512,0,0
+Accounting,Database Administrator III,0,0,0,512
+Accounting,Desktop Support Technician,0,0,512,0
+Accounting,Food Chemist,512,0,0,0
+Accounting,Graphic Designer,0,512,0,0
+Accounting,Health Coach III,0,0,0,512
+Accounting,Health Coach IV,0,0,512,0
+Accounting,Help Desk Technician,0,0,512,0
+Accounting,Junior Executive,0,0,512,0
+Accounting,Legal Assistant,0,0,512,512
+Accounting,Media Manager III,0,512,0,0
+Accounting,Programmer Analyst IV,0,512,512,512
+Accounting,Programmer III,0,0,512,0
+Accounting,Research Assistant IV,0,0,512,0
+Accounting,Sales Representative,512,0,512,0
+Accounting,Senior Cost Accountant,0,0,0,512
+Accounting,Senior Developer,0,0,0,512
+Accounting,Software Test Engineer IV,0,0,512,0
+Accounting,Statistician I,0,0,0,512
+Accounting,Statistician II,0,0,0,1024
+Accounting,Structural Analysis Engineer,0,512,1024,0
+Accounting,VP Accounting,0,0,512,0
+Accounting,Web Designer I,0,0,0,512
+Accounting,Web Designer III,0,0,0,512
+Accounting,Web Developer I,0,512,0,0
+Accounting,Web Developer III,0,0,0,1024
+Business Development,Account Executive,0,1024,0,512
+Business Development,Account Representative III,0,512,0,0
+Business Development,Account Representative IV,0,512,0,512
+Business Development,Accountant I,0,0,512,0
+Business Development,Accountant IV,0,1024,512,0
+Business Development,Accounting Assistant I,0,0,512,0
+Business Development,Actuary,512,0,512,512
+Business Development,Administrative Assistant I,512,0,0,0
+Business Development,Administrative Assistant III,512,0,0,0
+Business Development,Administrative Officer,0,512,0,0
+Business Development,Analog Circuit Design manager,512,1024,512,0
+Business Development,Analyst Programmer,0,512,0,0
+Business Development,Assistant Manager,0,0,0,512
+Business Development,Associate Professor,0,0,512,0
+Business Development,Automation Specialist I,0,0,0,1024
+Business Development,Automation Specialist IV,0,512,0,0
+Business Development,Biostatistician II,0,0,0,512
+Business Development,Biostatistician III,0,0,0,1024
+Business Development,Budget/Accounting Analyst I,512,0,0,0
+Business Development,Budget/Accounting Analyst III,0,512,0,0
+Business Development,Budget/Accounting Analyst IV,0,512,512,1024
+Business Development,Civil Engineer,0,1024,0,512
+Business Development,Clinical Specialist,512,512,0,1024
+Business Development,Community Outreach Specialist,0,0,0,512
+Business Development,Computer Systems Analyst III,0,0,0,512
+Business Development,Computer Systems Analyst IV,0,512,0,0
+Business Development,Database Administrator II,0,512,0,0
+Business Development,Database Administrator III,512,0,0,512
+Business Development,Database Administrator IV,0,0,0,512
+Business Development,Dental Hygienist,0,0,1536,0
+Business Development,Developer II,0,512,512,0
+Business Development,Director of Sales,0,0,512,0
+Business Development,Environmental Tech,0,512,0,0
+Business Development,Executive Secretary,0,1024,512,0
+Business Development,Food Chemist,0,0,0,1024
+Business Development,GIS Technical Architect,0,512,0,0
+Business Development,General Manager,512,512,1024,0
+Business Development,Geological Engineer,0,0,512,512
+Business Development,Geologist II,0,512,512,512
+Business Development,Geologist IV,512,0,0,512
+Business Development,Graphic Designer,0,0,512,512
+Business Development,Health Coach IV,512,512,0,1024
+Business Development,Human Resources Assistant III,0,512,0,0
+Business Development,Human Resources Assistant IV,512,0,512,512
+Business Development,Information Systems Manager,0,512,0,0
+Business Development,Internal Auditor,0,1024,0,0
+Business Development,Junior Executive,512,0,1024,1024
+Business Development,Legal Assistant,0,0,512,512
+Business Development,Marketing Manager,0,512,0,0
+Business Development,Mechanical Systems Engineer,0,0,512,512
+Business Development,Media Manager III,0,0,0,512
+Business Development,Occupational Therapist,0,1536,0,0
+Business Development,Office Assistant IV,0,0,512,0
+Business Development,Pharmacist,512,0,512,0
+Business Development,Product Engineer,0,512,512,512
+Business Development,Programmer Analyst II,0,0,512,0
+Business Development,Programmer I,0,0,512,0
+Business Development,Programmer III,512,512,512,512
+Business Development,Programmer IV,0,512,512,512
+Business Development,Quality Control Specialist,512,0,512,1024
+Business Development,Quality Engineer,0,512,0,512
+Business Development,Recruiter,0,1024,0,0
+Business Development,Recruiting Manager,0,0,512,0
+Business Development,Registered Nurse,512,0,0,0
+Business Development,Research Assistant II,0,0,0,512
+Business Development,Research Assistant III,0,512,0,0
+Business Development,Research Assistant IV,0,512,0,0
+Business Development,Research Nurse,0,0,0,1024
+Business Development,Safety Technician IV,0,0,512,0
+Business Development,Sales Representative,0,512,0,512
+Business Development,Senior Cost Accountant,512,0,1024,512
+Business Development,Senior Developer,0,0,512,0
+Business Development,Senior Editor,512,512,512,0
+Business Development,Senior Financial Analyst,0,0,0,512
+Business Development,Senior Quality Engineer,0,0,0,512
+Business Development,Senior Sales Associate,512,0,0,0
+Business Development,Software Test Engineer IV,1024,0,1024,0
+Business Development,Staff Accountant I,0,512,0,0
+Business Development,Staff Accountant III,0,512,0,0
+Business Development,Staff Accountant IV,0,0,0,512
+Business Development,Staff Scientist,512,512,0,0
+Business Development,Statistician II,0,512,0,0
+Business Development,Statistician III,0,512,512,0
+Business Development,Structural Analysis Engineer,0,1024,1024,512
+Business Development,Structural Engineer,0,512,0,0
+Business Development,Systems Administrator IV,512,512,512,512
+Business Development,Teacher,512,512,512,0
+Business Development,Technical Writer,512,512,0,0
+Business Development,VP Accounting,0,0,0,512
+Business Development,VP Marketing,0,0,512,0
+Business Development,VP Product Management,512,0,0,0
+Business Development,Web Designer I,0,1024,0,512
+Business Development,Web Designer II,0,0,512,0
+Business Development,Web Designer III,0,0,512,0
+Business Development,Web Designer IV,0,0,512,512
+Business Development,Web Developer I,512,512,512,512
+Business Development,Web Developer II,0,0,0,512
+Engineering,Account Coordinator,0,512,512,0
+Engineering,Account Executive,0,0,0,512
+Engineering,Account Representative IV,0,0,0,512
+Engineering,Accountant I,512,0,512,0
+Engineering,Accounting Assistant IV,0,0,512,512
+Engineering,Actuary,512,0,0,512
+Engineering,Administrative Assistant I,0,0,0,512
+Engineering,Analog Circuit Design manager,0,0,0,512
+Engineering,Analyst Programmer,0,0,0,512
+Engineering,Assistant Manager,512,512,512,0
+Engineering,Assistant Media Planner,0,512,0,0
+Engineering,Assistant Professor,0,0,0,512
+Engineering,Associate Professor,0,512,1024,0
+Engineering,Automation Specialist I,0,0,512,0
+Engineering,Biostatistician III,0,512,512,0
+Engineering,Budget/Accounting Analyst I,0,512,0,1024
+Engineering,Budget/Accounting Analyst II,0,512,512,0
+Engineering,Budget/Accounting Analyst III,0,512,0,0
+Engineering,Budget/Accounting Analyst IV,0,0,0,512
+Engineering,Chemical Engineer,0,0,0,512
+Engineering,Civil Engineer,512,0,512,1024
+Engineering,Clinical Specialist,0,512,512,1024
+Engineering,Community Outreach Specialist,0,512,0,0
+Engineering,Computer Systems Analyst III,0,0,512,512
+Engineering,Computer Systems Analyst IV,0,512,0,0
+Engineering,Cost Accountant,0,0,512,0
+Engineering,Database Administrator I,0,0,512,0
+Engineering,Database Administrator II,0,0,512,512
+Engineering,Database Administrator III,0,0,0,512
+Engineering,Dental Hygienist,0,0,1024,512
+Engineering,Engineer III,512,0,0,512
+Engineering,Engineer IV,0,512,512,0
+Engineering,Environmental Tech,0,0,512,0
+Engineering,Executive Secretary,512,0,0,0
+Engineering,Financial Analyst,0,512,512,0
+Engineering,Food Chemist,0,1024,1024,512
+Engineering,GIS Technical Architect,0,512,0,512
+Engineering,General Manager,0,0,0,1024
+Engineering,Geological Engineer,512,512,512,0
+Engineering,Geologist I,0,0,512,0
+Engineering,Geologist II,0,1536,512,0
+Engineering,Graphic Designer,1024,0,0,0
+Engineering,Health Coach I,0,0,0,512
+Engineering,Health Coach III,0,0,0,512
+Engineering,Health Coach IV,0,512,0,1536
+Engineering,Help Desk Operator,0,512,0,0
+Engineering,Help Desk Technician,0,0,512,0
+Engineering,Human Resources Assistant III,512,0,0,512
+Engineering,Human Resources Assistant IV,0,0,0,512
+Engineering,Internal Auditor,0,0,0,512
+Engineering,Junior Executive,0,0,512,512
+Engineering,Legal Assistant,0,512,0,0
+Engineering,Marketing Manager,0,0,512,0
+Engineering,Mechanical Systems Engineer,0,0,512,0
+Engineering,Media Manager IV,0,0,512,0
+Engineering,Nuclear Power Engineer,0,0,0,512
+Engineering,Nurse,512,512,0,0
+Engineering,Occupational Therapist,0,0,0,512
+Engineering,Office Assistant II,1024,0,0,0
+Engineering,Payment Adjustment Coordinator,512,0,0,0
+Engineering,Pharmacist,0,0,0,512
+Engineering,Physical Therapy Assistant,512,0,0,512
+Engineering,Product Engineer,512,0,512,0
+Engineering,Professor,0,0,512,0
+Engineering,Programmer I,0,512,512,0
+Engineering,Programmer III,512,512,0,512
+Engineering,Programmer IV,512,512,512,1024
+Engineering,Project Manager,0,1024,512,0
+Engineering,Quality Control Specialist,0,0,512,512
+Engineering,Quality Engineer,0,512,2560,0
+Engineering,Recruiter,0,0,1536,512
+Engineering,Recruiting Manager,0,0,512,0
+Engineering,Research Assistant II,0,512,0,0
+Engineering,Research Nurse,0,0,512,512
+Engineering,Safety Technician IV,512,0,0,512
+Engineering,Sales Associate,0,0,512,512
+Engineering,Sales Representative,0,0,1024,1024
+Engineering,Senior Cost Accountant,0,512,0,512
+Engineering,Senior Developer,512,0,512,512
+Engineering,Senior Editor,0,512,0,512
+Engineering,Senior Quality Engineer,0,0,0,1024
+Engineering,Social Worker,0,0,512,0
+Engineering,Software Engineer I,512,0,512,512
+Engineering,Software Engineer III,0,0,0,1024
+Engineering,Software Test Engineer I,512,0,0,512
+Engineering,Software Test Engineer IV,0,512,0,512
+Engineering,Staff Accountant IV,1024,0,512,1024
+Engineering,Statistician II,0,512,512,512
+Engineering,Statistician III,512,512,0,0
+Engineering,Structural Analysis Engineer,0,0,512,0
+Engineering,Structural Engineer,0,1024,0,0
+Engineering,Systems Administrator II,0,1024,0,1024
+Engineering,Tax Accountant,0,512,0,512
+Engineering,Teacher,512,0,1536,512
+Engineering,Technical Writer,0,512,512,0
+Engineering,VP Accounting,512,0,0,0
+Engineering,VP Product Management,0,0,512,512
+Engineering,Web Designer I,0,512,0,2560
+Engineering,Web Designer II,0,512,0,0
+Engineering,Web Designer III,0,0,0,512
+Engineering,Web Designer IV,0,0,512,0
+Engineering,Web Developer I,0,512,0,512
+Engineering,Web Developer II,0,512,0,0
+Human Resources,Account Coordinator,512,1024,0,0
+Human Resources,Account Executive,512,0,0,512
+Human Resources,Account Representative IV,0,512,0,512
+Human Resources,Accountant I,0,0,512,512
+Human Resources,Accounting Assistant II,0,0,0,512
+Human Resources,Accounting Assistant IV,0,512,0,512
+Human Resources,Actuary,0,512,512,512
+Human Resources,Analog Circuit Design manager,0,0,0,512
+Human Resources,Analyst Programmer,0,512,0,512
+Human Resources,Assistant Manager,512,1024,0,0
+Human Resources,Assistant Media Planner,0,0,0,1024
+Human Resources,Assistant Professor,0,1024,0,0
+Human Resources,Associate Professor,1024,0,0,1024
+Human Resources,Automation Specialist I,512,0,0,0
+Human Resources,Automation Specialist IV,512,0,0,0
+Human Resources,Biostatistician III,0,0,512,0
+Human Resources,Budget/Accounting Analyst I,512,0,0,512
+Human Resources,Budget/Accounting Analyst III,0,0,0,1536
+Human Resources,Budget/Accounting Analyst IV,0,0,512,0
+Human Resources,Chemical Engineer,512,0,0,0
+Human Resources,Civil Engineer,0,512,0,0
+Human Resources,Clinical Specialist,0,0,0,1536
+Human Resources,Community Outreach Specialist,512,0,0,0
+Human Resources,Cost Accountant,0,512,512,512
+Human Resources,Data Coordiator,0,0,0,512
+Human Resources,Database Administrator I,0,0,0,1024
+Human Resources,Database Administrator III,0,0,512,0
+Human Resources,Database Administrator IV,512,0,0,0
+Human Resources,Design Engineer,512,0,0,0
+Human Resources,Developer III,0,0,0,1024
+Human Resources,Developer IV,0,0,0,512
+Human Resources,Director of Sales,512,0,1024,0
+Human Resources,Editor,0,512,512,0
+Human Resources,Electrical Engineer,0,512,0,0
+Human Resources,Engineer III,1024,0,512,0
+Human Resources,Engineer IV,0,512,0,0
+Human Resources,Environmental Tech,0,512,0,0
+Human Resources,Executive Secretary,0,512,512,512
+Human Resources,Financial Advisor,0,0,0,512
+Human Resources,Food Chemist,0,0,0,512
+Human Resources,GIS Technical Architect,512,0,0,0
+Human Resources,Geological Engineer,0,1024,0,0
+Human Resources,Geologist II,0,512,512,512
+Human Resources,Geologist IV,0,0,0,512
+Human Resources,Graphic Designer,0,1024,0,0
+Human Resources,Health Coach I,0,512,0,512
+Human Resources,Health Coach III,0,0,0,512
+Human Resources,Health Coach IV,0,0,1024,0
+Human Resources,Human Resources Assistant II,0,0,0,512
+Human Resources,Human Resources Assistant III,0,0,512,0
+Human Resources,Human Resources Assistant IV,0,0,512,0
+Human Resources,Human Resources Manager,0,512,0,0
+Human Resources,Junior Executive,512,512,512,0
+Human Resources,Marketing Assistant,0,512,0,0
+Human Resources,Marketing Manager,0,1024,0,0
+Human Resources,Media Manager III,0,512,512,512
+Human Resources,Nurse,0,0,512,0
+Human Resources,Occupational Therapist,512,0,0,512
+Human Resources,Office Assistant II,512,512,0,0
+Human Resources,Operator,0,512,0,0
+Human Resources,Paralegal,0,0,512,0
+Human Resources,Payment Adjustment Coordinator,512,0,0,512
+Human Resources,Pharmacist,0,512,0,512
+Human Resources,Physical Therapy Assistant,0,0,0,512
+Human Resources,Product Engineer,0,1024,512,1024
+Human Resources,Professor,0,0,512,512
+Human Resources,Programmer Analyst IV,512,0,0,0
+Human Resources,Programmer III,0,1024,512,0
+Human Resources,Programmer IV,0,512,1024,0
+Human Resources,Quality Control Specialist,0,1024,512,0
+Human Resources,Quality Engineer,0,0,0,1024
+Human Resources,Recruiter,0,0,512,512
+Human Resources,Recruiting Manager,512,0,512,1024
+Human Resources,Registered Nurse,0,512,0,0
+Human Resources,Research Assistant I,0,0,512,0
+Human Resources,Research Assistant II,0,512,0,512
+Human Resources,Research Assistant IV,0,0,0,512
+Human Resources,Research Associate,0,512,512,0
+Human Resources,Safety Technician II,0,512,0,512
+Human Resources,Safety Technician III,0,512,0,0
+Human Resources,Sales Representative,0,0,512,0
+Human Resources,Senior Cost Accountant,0,0,512,1536
+Human Resources,Senior Developer,512,0,0,0
+Human Resources,Senior Editor,0,0,512,1024
+Human Resources,Senior Financial Analyst,0,0,1024,0
+Human Resources,Senior Quality Engineer,0,0,0,512
+Human Resources,Social Worker,0,0,0,1536
+Human Resources,Software Engineer I,0,512,0,1024
+Human Resources,Software Engineer III,0,1536,0,0
+Human Resources,Software Engineer IV,0,0,512,0
+Human Resources,Software Test Engineer IV,512,0,0,512
+Human Resources,Staff Accountant II,0,512,0,0
+Human Resources,Staff Accountant IV,0,512,512,0
+Human Resources,Staff Scientist,0,0,512,512
+Human Resources,Statistician II,0,512,512,0
+Human Resources,Structural Analysis Engineer,0,0,512,0
+Human Resources,Systems Administrator II,512,0,0,512
+Human Resources,Systems Administrator IV,0,0,512,0
+Human Resources,Tax Accountant,0,0,0,1024
+Human Resources,Teacher,0,512,0,0
+Human Resources,Technical Writer,512,0,1024,0
+Human Resources,VP Accounting,512,0,1024,1024
+Human Resources,VP Marketing,0,512,0,0
+Human Resources,VP Quality Control,0,512,0,0
+Human Resources,Web Designer I,0,512,0,0
+Human Resources,Web Designer II,0,512,512,512
+Human Resources,Web Developer I,512,0,0,0
+Human Resources,Web Developer II,512,0,1024,1024
+Legal,Account Coordinator,0,512,0,0
+Legal,Account Executive,0,0,0,512
+Legal,Account Representative IV,0,0,0,512
+Legal,Accountant I,0,0,512,0
+Legal,Accountant IV,0,0,512,0
+Legal,Associate Professor,0,0,512,512
+Legal,Biostatistician II,0,0,512,0
+Legal,Budget/Accounting Analyst III,0,0,512,1024
+Legal,Chief Design Engineer,0,512,0,512
+Legal,Computer Systems Analyst IV,512,0,0,0
+Legal,Database Administrator II,0,0,512,0
+Legal,Database Administrator III,0,0,0,512
+Legal,Dental Hygienist,0,0,0,512
+Legal,Engineer III,0,0,0,512
+Legal,Engineer IV,512,0,0,0
+Legal,Financial Advisor,0,512,0,512
+Legal,Geologist I,0,0,512,0
+Legal,Geologist II,0,0,0,512
+Legal,Health Coach IV,0,0,0,512
+Legal,Human Resources Assistant IV,0,512,0,0
+Legal,Internal Auditor,0,512,0,0
+Legal,Marketing Manager,512,0,0,0
+Legal,Media Manager III,0,0,0,512
+Legal,Occupational Therapist,0,512,512,0
+Legal,Office Assistant IV,512,0,0,0
+Legal,Programmer Analyst II,0,512,0,0
+Legal,Programmer III,0,0,0,512
+Legal,Quality Engineer,0,0,512,0
+Legal,Recruiter,0,0,512,0
+Legal,Senior Editor,0,512,0,0
+Legal,Senior Financial Analyst,0,0,512,0
+Legal,Senior Quality Engineer,0,0,0,512
+Legal,Software Engineer I,0,0,0,512
+Legal,Software Test Engineer I,0,0,0,512
+Legal,Software Test Engineer IV,0,0,512,512
+Legal,Staff Scientist,0,0,0,512
+Legal,Statistician I,0,0,512,0
+Legal,Statistician II,512,0,512,0
+Legal,Structural Engineer,0,512,512,0
+Legal,Systems Administrator II,0,0,512,0
+Legal,Tax Accountant,0,0,0,512
+Legal,Teacher,512,0,0,512
+Legal,Web Developer I,0,512,1024,0
+Legal,Web Developer III,0,0,0,512
+Marketing,Account Executive,512,0,0,0
+Marketing,Accountant I,512,0,512,0
+Marketing,Accountant IV,512,0,512,0
+Marketing,Accounting Assistant IV,0,1536,0,0
+Marketing,Administrative Assistant I,512,0,0,0
+Marketing,Analyst Programmer,512,512,512,0
+Marketing,Assistant Manager,0,0,0,1024
+Marketing,Assistant Professor,512,512,512,0
+Marketing,Associate Professor,512,0,0,0
+Marketing,Biostatistician II,0,512,0,1024
+Marketing,Biostatistician III,0,0,1024,512
+Marketing,Budget/Accounting Analyst II,512,0,0,1024
+Marketing,Budget/Accounting Analyst IV,512,512,0,0
+Marketing,Chemical Engineer,0,0,0,512
+Marketing,Civil Engineer,0,512,512,0
+Marketing,Clinical Specialist,0,0,0,512
+Marketing,Computer Systems Analyst II,0,512,0,0
+Marketing,Computer Systems Analyst III,0,512,512,0
+Marketing,Computer Systems Analyst IV,0,512,1536,0
+Marketing,Cost Accountant,1024,0,0,512
+Marketing,Data Coordiator,512,512,0,0
+Marketing,Database Administrator III,0,0,0,512
+Marketing,Database Administrator IV,0,512,0,0
+Marketing,Dental Hygienist,0,512,0,1024
+Marketing,Desktop Support Technician,512,0,0,0
+Marketing,Developer IV,0,0,0,512
+Marketing,Electrical Engineer,0,512,512,0
+Marketing,Engineer IV,512,0,0,0
+Marketing,Environmental Tech,0,0,0,512
+Marketing,Executive Secretary,512,0,0,0
+Marketing,Financial Analyst,0,0,512,0
+Marketing,Food Chemist,512,1024,0,0
+Marketing,GIS Technical Architect,0,0,0,512
+Marketing,General Manager,0,0,512,0
+Marketing,Geologist II,0,0,0,512
+Marketing,Graphic Designer,512,512,0,0
+Marketing,Health Coach I,512,0,0,0
+Marketing,Health Coach III,0,512,512,0
+Marketing,Health Coach IV,512,512,0,512
+Marketing,Human Resources Assistant III,512,0,0,0
+Marketing,Human Resources Manager,0,512,0,0
+Marketing,Internal Auditor,0,0,512,0
+Marketing,Mechanical Systems Engineer,1024,0,0,0
+Marketing,Media Manager IV,0,512,0,0
+Marketing,Nuclear Power Engineer,512,0,0,512
+Marketing,Nurse,0,512,0,0
+Marketing,Nurse Practicioner,0,0,512,0
+Marketing,Occupational Therapist,0,0,0,512
+Marketing,Office Assistant III,0,512,0,0
+Marketing,Pharmacist,0,0,1024,0
+Marketing,Physical Therapy Assistant,0,0,1024,0
+Marketing,Product Engineer,0,1024,0,0
+Marketing,Professor,0,0,512,0
+Marketing,Programmer IV,0,0,512,0
+Marketing,Quality Control Specialist,0,0,0,512
+Marketing,Quality Engineer,0,0,512,0
+Marketing,Recruiter,0,0,512,0
+Marketing,Recruiting Manager,0,0,0,512
+Marketing,Registered Nurse,0,0,0,512
+Marketing,Research Assistant IV,0,512,0,0
+Marketing,Safety Technician I,0,512,0,0
+Marketing,Safety Technician II,512,0,0,512
+Marketing,Safety Technician IV,0,0,512,0
+Marketing,Sales Representative,0,1024,0,512
+Marketing,Senior Cost Accountant,0,0,512,0
+Marketing,Senior Developer,0,0,0,512
+Marketing,Senior Editor,512,0,0,0
+Marketing,Senior Financial Analyst,0,512,0,0
+Marketing,Software Engineer IV,0,0,0,512
+Marketing,Software Test Engineer I,0,0,0,512
+Marketing,Software Test Engineer IV,0,0,512,0
+Marketing,Staff Accountant II,512,0,512,0
+Marketing,Staff Accountant III,512,0,0,0
+Marketing,Staff Scientist,0,512,0,0
+Marketing,Statistician I,0,0,0,512
+Marketing,Statistician II,512,1536,1024,0
+Marketing,Structural Engineer,512,0,0,0
+Marketing,Systems Administrator IV,0,512,0,0
+Marketing,Tax Accountant,0,512,0,512
+Marketing,Teacher,1024,0,512,512
+Marketing,Technical Writer,512,0,0,0
+Marketing,VP Accounting,0,512,1024,0
+Marketing,VP Marketing,0,0,512,0
+Marketing,VP Product Management,0,0,1024,0
+Marketing,VP Quality Control,0,0,0,512
+Marketing,Web Designer I,0,0,512,0
+Marketing,Web Developer I,0,0,512,0
+Marketing,Web Developer III,0,0,512,0
+Product Management,Account Representative III,512,0,0,0
+Product Management,Accountant I,0,512,0,0
+Product Management,Accounting Assistant IV,0,0,512,0
+Product Management,Analyst Programmer,0,0,1024,0
+Product Management,Assistant Manager,512,0,0,0
+Product Management,Automation Specialist I,512,0,0,0
+Product Management,Budget/Accounting Analyst I,0,0,0,512
+Product Management,Budget/Accounting Analyst IV,512,512,0,0
+Product Management,Cost Accountant,512,0,0,0
+Product Management,Database Administrator I,0,0,0,512
+Product Management,Electrical Engineer,0,0,0,512
+Product Management,Engineer IV,0,512,512,0
+Product Management,Geological Engineer,0,512,0,0
+Product Management,Graphic Designer,0,1536,0,0
+Product Management,Help Desk Operator,512,0,0,512
+Product Management,Help Desk Technician,0,512,0,0
+Product Management,Junior Executive,0,0,0,512
+Product Management,Legal Assistant,0,512,0,0
+Product Management,Librarian,0,512,0,0
+Product Management,Marketing Manager,0,0,0,512
+Product Management,Nurse Practicioner,0,512,0,0
+Product Management,Office Assistant IV,0,0,512,0
+Product Management,Payment Adjustment Coordinator,512,512,0,0
+Product Management,Pharmacist,0,0,512,0
+Product Management,Physical Therapy Assistant,0,0,0,512
+Product Management,Programmer IV,0,512,0,0
+Product Management,Quality Control Specialist,0,0,512,0
+Product Management,Research Assistant II,0,1024,0,0
+Product Management,Sales Associate,0,512,0,0
+Product Management,Senior Editor,512,0,0,0
+Product Management,Software Consultant,512,0,512,0
+Product Management,Software Test Engineer I,0,512,0,0
+Product Management,Software Test Engineer IV,0,512,0,0
+Product Management,Staff Accountant IV,0,512,0,0
+Product Management,Staff Scientist,512,0,0,0
+Product Management,Systems Administrator IV,0,0,0,512
+Product Management,Technical Writer,0,0,1024,0
+Product Management,Web Developer I,0,0,512,512
+Research and Development,Account Executive,0,0,512,512
+Research and Development,Account Representative III,512,0,0,0
+Research and Development,Account Representative IV,512,0,0,0
+Research and Development,Accounting Assistant IV,0,0,0,512
+Research and Development,Actuary,512,0,0,0
+Research and Development,Administrative Officer,0,512,512,0
+Research and Development,Analog Circuit Design manager,0,0,512,0
+Research and Development,Assistant Professor,0,0,512,1024
+Research and Development,Associate Professor,0,512,512,0
+Research and Development,Automation Specialist I,0,0,0,512
+Research and Development,Biostatistician II,512,0,0,0
+Research and Development,Biostatistician III,0,0,0,1024
+Research and Development,Budget/Accounting Analyst III,0,512,0,512
+Research and Development,Budget/Accounting Analyst IV,0,512,512,0
+Research and Development,Chemical Engineer,0,0,1024,0
+Research and Development,Chief Design Engineer,0,1024,0,0
+Research and Development,Civil Engineer,512,0,0,0
+Research and Development,Clinical Specialist,512,512,0,512
+Research and Development,Compensation Analyst,0,0,512,0
+Research and Development,Computer Systems Analyst III,0,0,512,0
+Research and Development,Cost Accountant,512,0,512,0
+Research and Development,Data Coordiator,0,0,0,512
+Research and Development,Database Administrator II,0,0,512,0
+Research and Development,Database Administrator III,512,0,0,0
+Research and Development,Dental Hygienist,0,0,512,0
+Research and Development,Director of Sales,0,0,512,0
+Research and Development,Electrical Engineer,0,0,512,0
+Research and Development,Engineer IV,0,0,512,0
+Research and Development,Environmental Tech,0,0,512,0
+Research and Development,Executive Secretary,0,512,0,512
+Research and Development,Food Chemist,0,0,0,512
+Research and Development,General Manager,512,0,0,0
+Research and Development,Geologist II,512,1024,0,0
+Research and Development,Geologist IV,0,0,512,0
+Research and Development,Graphic Designer,0,512,0,1024
+Research and Development,Health Coach I,512,0,0,0
+Research and Development,Health Coach III,0,0,512,0
+Research and Development,Health Coach IV,512,0,0,1536
+Research and Development,Information Systems Manager,0,0,512,0
+Research and Development,Internal Auditor,0,0,512,512
+Research and Development,Junior Executive,0,0,512,0
+Research and Development,Legal Assistant,0,0,512,0
+Research and Development,Librarian,0,0,512,0
+Research and Development,Marketing Manager,0,1024,0,0
+Research and Development,Media Manager III,0,512,512,512
+Research and Development,Nuclear Power Engineer,0,0,1024,0
+Research and Development,Operator,0,0,0,1024
+Research and Development,Paralegal,0,1024,0,0
+Research and Development,Payment Adjustment Coordinator,0,512,0,0
+Research and Development,Pharmacist,512,0,1024,0
+Research and Development,Programmer Analyst II,0,0,0,512
+Research and Development,Programmer Analyst IV,0,0,512,0
+Research and Development,Programmer I,0,512,0,1024
+Research and Development,Programmer III,0,0,0,512
+Research and Development,Programmer IV,0,0,0,512
+Research and Development,Project Manager,0,0,0,512
+Research and Development,Quality Control Specialist,0,512,512,0
+Research and Development,Recruiter,512,512,1024,1024
+Research and Development,Recruiting Manager,2048,0,0,512
+Research and Development,Registered Nurse,512,0,0,512
+Research and Development,Research Assistant II,0,512,512,0
+Research and Development,Research Associate,0,1024,0,0
+Research and Development,Sales Associate,0,0,0,512
+Research and Development,Sales Representative,0,512,0,512
+Research and Development,Senior Cost Accountant,0,0,512,0
+Research and Development,Senior Developer,0,512,0,0
+Research and Development,Senior Editor,512,0,0,512
+Research and Development,Senior Financial Analyst,0,0,512,512
+Research and Development,Senior Quality Engineer,0,0,512,0
+Research and Development,Social Worker,512,0,512,0
+Research and Development,Software Engineer I,0,512,0,0
+Research and Development,Software Test Engineer I,512,0,0,0
+Research and Development,Software Test Engineer IV,0,0,0,512
+Research and Development,Speech Pathologist,0,0,512,0
+Research and Development,Staff Accountant IV,512,0,512,512
+Research and Development,Staff Scientist,0,0,512,0
+Research and Development,Statistician I,0,0,0,1024
+Research and Development,Statistician II,512,0,0,512
+Research and Development,Structural Engineer,512,512,512,0
+Research and Development,Systems Administrator II,0,512,0,0
+Research and Development,Systems Administrator IV,0,512,0,0
+Research and Development,Tax Accountant,0,512,512,0
+Research and Development,Teacher,0,512,1024,512
+Research and Development,Technical Writer,0,0,512,512
+Research and Development,VP Accounting,0,0,0,512
+Research and Development,Web Designer I,512,0,0,0
+Research and Development,Web Designer II,0,0,0,512
+Research and Development,Web Developer III,0,512,0,512
+Sales,Account Executive,0,512,0,0
+Sales,Accounting Assistant II,0,512,0,0
+Sales,Accounting Assistant IV,512,0,0,0
+Sales,Actuary,0,512,0,0
+Sales,Administrative Assistant I,0,512,0,0
+Sales,Administrative Officer,512,0,0,0
+Sales,Analyst Programmer,0,512,0,0
+Sales,Assistant Manager,0,512,512,0
+Sales,Assistant Professor,0,0,1024,0
+Sales,Associate Professor,0,1024,0,0
+Sales,Biostatistician II,0,512,0,0
+Sales,Biostatistician III,0,1024,0,512
+Sales,Budget/Accounting Analyst III,512,0,0,0
+Sales,Budget/Accounting Analyst IV,0,0,1024,512
+Sales,Business Systems Development Analyst,0,0,0,512
+Sales,Chief Design Engineer,0,512,0,0
+Sales,Civil Engineer,512,0,512,0
+Sales,Clinical Specialist,0,512,0,0
+Sales,Computer Systems Analyst I,0,0,512,0
+Sales,Computer Systems Analyst IV,0,0,0,512
+Sales,Cost Accountant,512,512,512,0
+Sales,Database Administrator III,0,0,512,0
+Sales,Design Engineer,512,0,0,0
+Sales,Director of Sales,0,512,0,1024
+Sales,Engineer III,512,0,0,0
+Sales,Engineer IV,0,512,0,0
+Sales,Financial Analyst,0,0,0,512
+Sales,Geologist II,0,1024,0,1024
+Sales,Geologist IV,0,0,512,512
+Sales,Graphic Designer,512,0,0,0
+Sales,Health Coach I,512,0,0,0
+Sales,Health Coach III,0,0,1024,1024
+Sales,Human Resources Manager,0,512,0,0
+Sales,Librarian,0,512,0,0
+Sales,Mechanical Systems Engineer,0,512,512,0
+Sales,Media Manager II,0,0,0,512
+Sales,Nurse,0,0,512,0
+Sales,Nurse Practicioner,512,0,0,0
+Sales,Pharmacist,0,0,0,512
+Sales,Programmer IV,0,512,0,1024
+Sales,Quality Control Specialist,0,0,0,512
+Sales,Recruiter,0,1024,0,0
+Sales,Recruiting Manager,0,512,1024,0
+Sales,Research Assistant II,512,512,0,0
+Sales,Research Assistant IV,0,512,0,0
+Sales,Senior Financial Analyst,512,1024,0,0
+Sales,Senior Quality Engineer,0,0,512,0
+Sales,Social Worker,0,0,0,512
+Sales,Software Test Engineer IV,0,512,0,0
+Sales,Staff Accountant I,0,512,0,0
+Sales,Staff Accountant III,0,512,0,0
+Sales,Staff Accountant IV,0,0,512,0
+Sales,Staff Scientist,0,0,0,512
+Sales,Statistician II,512,512,0,0
+Sales,Systems Administrator IV,512,0,512,0
+Sales,Teacher,0,0,512,512
+Sales,VP Accounting,0,0,512,1536
+Sales,Web Designer I,512,0,0,0
+Sales,Web Developer III,512,0,0,512
+Services,Account Coordinator,0,0,0,512
+Services,Account Executive,0,0,1024,0
+Services,Accountant I,0,0,0,512
+Services,Accountant III,0,0,512,0
+Services,Accounting Assistant I,0,512,0,0
+Services,Accounting Assistant IV,0,512,0,0
+Services,Administrative Assistant I,512,0,0,0
+Services,Analog Circuit Design manager,0,0,0,512
+Services,Analyst Programmer,0,512,512,512
+Services,Assistant Professor,0,0,0,512
+Services,Associate Professor,0,512,1024,0
+Services,Biostatistician II,0,512,0,0
+Services,Biostatistician III,0,512,512,512
+Services,Biostatistician IV,0,512,512,0
+Services,Budget/Accounting Analyst II,0,0,512,0
+Services,Budget/Accounting Analyst III,0,1024,0,0
+Services,Budget/Accounting Analyst IV,0,1536,512,0
+Services,Chemical Engineer,0,512,0,0
+Services,Chief Design Engineer,0,0,0,512
+Services,Civil Engineer,0,0,512,512
+Services,Clinical Specialist,512,512,1024,512
+Services,Community Outreach Specialist,512,512,1024,0
+Services,Computer Systems Analyst IV,0,0,512,0
+Services,Cost Accountant,512,0,0,0
+Services,Data Coordiator,0,512,0,512
+Services,Database Administrator I,0,0,1024,0
+Services,Database Administrator IV,0,512,0,0
+Services,Dental Hygienist,0,1024,0,0
+Services,Design Engineer,0,0,512,0
+Services,Developer I,0,512,1024,0
+Services,Developer II,0,512,0,0
+Services,Developer III,0,0,512,0
+Services,Director of Sales,0,0,0,512
+Services,Engineer I,0,512,0,0
+Services,Engineer III,0,0,1536,0
+Services,Engineer IV,0,512,0,0
+Services,Environmental Tech,0,512,0,0
+Services,Executive Secretary,0,0,512,512
+Services,Food Chemist,512,512,0,1024
+Services,GIS Technical Architect,512,512,0,0
+Services,General Manager,0,512,0,0
+Services,Geological Engineer,0,0,0,512
+Services,Geologist I,0,0,512,512
+Services,Geologist II,512,512,0,0
+Services,Geologist IV,0,0,0,1536
+Services,Graphic Designer,0,512,0,0
+Services,Health Coach III,0,0,0,512
+Services,Health Coach IV,0,0,512,0
+Services,Human Resources Assistant II,0,512,512,0
+Services,Human Resources Assistant IV,512,0,0,512
+Services,Human Resources Manager,0,512,0,512
+Services,Information Systems Manager,0,0,512,0
+Services,Internal Auditor,0,1536,0,0
+Services,Junior Executive,0,512,512,0
+Services,Legal Assistant,512,0,0,0
+Services,Librarian,0,512,0,512
+Services,Media Manager III,0,0,0,1024
+Services,Media Manager IV,0,0,512,0
+Services,Nuclear Power Engineer,512,0,0,0
+Services,Nurse Practicioner,0,512,0,0
+Services,Occupational Therapist,0,512,512,0
+Services,Operator,0,0,512,0
+Services,Payment Adjustment Coordinator,0,0,0,512
+Services,Pharmacist,0,0,0,512
+Services,Physical Therapy Assistant,0,512,512,0
+Services,Professor,0,0,0,1024
+Services,Programmer Analyst II,512,0,0,0
+Services,Programmer I,512,0,1024,0
+Services,Programmer III,0,0,1024,0
+Services,Programmer IV,1024,1536,0,1536
+Services,Project Manager,512,0,0,0
+Services,Quality Control Specialist,0,0,1024,512
+Services,Quality Engineer,0,512,512,512
+Services,Recruiter,0,0,512,512
+Services,Recruiting Manager,0,512,512,0
+Services,Registered Nurse,0,512,0,0
+Services,Research Assistant II,0,512,0,1024
+Services,Research Assistant III,0,0,512,0
+Services,Research Assistant IV,0,1024,512,512
+Services,Safety Technician IV,0,0,0,512
+Services,Sales Representative,0,512,0,512
+Services,Senior Cost Accountant,512,1024,0,0
+Services,Senior Developer,0,0,0,512
+Services,Senior Editor,0,512,0,0
+Services,Senior Financial Analyst,512,512,0,0
+Services,Software Engineer I,0,1536,0,1536
+Services,Software Engineer III,512,0,0,0
+Services,Software Test Engineer III,0,0,0,512
+Services,Software Test Engineer IV,512,512,512,512
+Services,Staff Accountant III,0,0,512,0
+Services,Staff Accountant IV,512,0,0,0
+Services,Staff Scientist,0,512,0,0
+Services,Statistician I,512,0,0,0
+Services,Statistician II,512,0,0,512
+Services,Statistician III,0,0,512,0
+Services,Structural Analysis Engineer,0,512,512,512
+Services,Systems Administrator IV,512,0,512,0
+Services,Teacher,1536,1024,0,512
+Services,VP Accounting,0,1024,0,0
+Services,VP Product Management,0,0,1024,512
+Services,VP Quality Control,0,0,512,0
+Services,Web Designer I,512,0,512,0
+Services,Web Designer II,0,512,512,0
+Services,Web Designer III,512,0,0,0
+Services,Web Developer I,512,512,512,0
+Services,Web Developer II,0,512,0,0
+Support,Account Coordinator,0,0,0,512
+Support,Account Executive,0,512,1024,1024
+Support,Account Representative III,0,0,0,1024
+Support,Account Representative IV,0,512,0,512
+Support,Accountant IV,0,1024,0,0
+Support,Accounting Assistant I,512,0,512,0
+Support,Accounting Assistant II,512,512,0,0
+Support,Accounting Assistant III,0,0,512,0
+Support,Accounting Assistant IV,0,1024,512,0
+Support,Actuary,0,0,0,1024
+Support,Administrative Assistant III,0,512,0,0
+Support,Analog Circuit Design manager,512,0,0,0
+Support,Analyst Programmer,0,0,512,512
+Support,Assistant Manager,1024,0,512,0
+Support,Assistant Media Planner,0,0,0,1024
+Support,Assistant Professor,0,1024,0,0
+Support,Associate Professor,0,1024,1536,0
+Support,Automation Specialist I,512,0,1024,0
+Support,Automation Specialist IV,0,0,0,512
+Support,Biostatistician II,0,0,512,0
+Support,Biostatistician III,0,0,0,1536
+Support,Budget/Accounting Analyst I,512,0,0,0
+Support,Budget/Accounting Analyst IV,512,0,0,0
+Support,Chemical Engineer,512,0,0,0
+Support,Chief Design Engineer,512,1536,0,512
+Support,Civil Engineer,0,1024,512,0
+Support,Clinical Specialist,512,512,1024,1024
+Support,Computer Systems Analyst IV,0,512,0,0
+Support,Cost Accountant,512,1024,0,512
+Support,Data Coordiator,0,0,512,0
+Support,Database Administrator I,0,0,0,512
+Support,Database Administrator II,512,0,0,0
+Support,Database Administrator III,0,512,512,0
+Support,Dental Hygienist,0,0,512,0
+Support,Developer II,0,0,0,512
+Support,Director of Sales,512,0,0,1024
+Support,Editor,0,0,512,512
+Support,Electrical Engineer,0,0,0,512
+Support,Engineer III,0,0,512,1024
+Support,Engineer IV,0,512,512,0
+Support,Environmental Tech,512,0,0,0
+Support,Executive Secretary,512,0,0,0
+Support,Food Chemist,512,0,0,0
+Support,GIS Technical Architect,0,512,0,0
+Support,General Manager,0,1024,0,0
+Support,Geological Engineer,0,0,512,0
+Support,Geologist II,0,0,0,1024
+Support,Geologist IV,512,0,0,512
+Support,Graphic Designer,0,0,512,0
+Support,Health Coach III,512,512,0,512
+Support,Health Coach IV,0,0,512,512
+Support,Human Resources Assistant II,0,0,512,0
+Support,Human Resources Assistant III,0,512,0,0
+Support,Human Resources Assistant IV,0,512,0,0
+Support,Junior Executive,512,0,0,512
+Support,Marketing Manager,0,512,0,0
+Support,Media Manager IV,0,0,512,0
+Support,Nurse,512,0,0,0
+Support,Nurse Practicioner,0,512,0,0
+Support,Occupational Therapist,0,0,512,0
+Support,Paralegal,0,512,0,0
+Support,Pharmacist,0,512,0,512
+Support,Product Engineer,0,0,0,512
+Support,Professor,0,0,1024,0
+Support,Programmer Analyst II,512,0,512,0
+Support,Programmer I,512,0,0,0
+Support,Programmer III,512,512,0,512
+Support,Programmer IV,0,0,2048,1024
+Support,Project Manager,0,0,512,0
+Support,Quality Engineer,512,0,0,0
+Support,Recruiter,1024,1536,1024,512
+Support,Recruiting Manager,0,0,512,512
+Support,Registered Nurse,0,0,512,1024
+Support,Research Assistant III,0,0,512,0
+Support,Research Assistant IV,0,0,0,1024
+Support,Sales Representative,0,512,512,0
+Support,Senior Cost Accountant,0,0,512,0
+Support,Senior Developer,0,0,512,512
+Support,Senior Editor,0,0,0,1536
+Support,Senior Financial Analyst,512,1024,512,512
+Support,Social Worker,0,0,512,0
+Support,Software Engineer III,0,0,0,1024
+Support,Software Test Engineer I,0,0,512,0
+Support,Software Test Engineer IV,0,1024,512,512
+Support,Speech Pathologist,0,512,0,0
+Support,Staff Accountant III,512,0,512,0
+Support,Staff Accountant IV,0,0,0,512
+Support,Staff Scientist,0,0,512,512
+Support,Statistician I,0,1024,0,0
+Support,Statistician II,0,512,0,0
+Support,Statistician III,0,512,0,0
+Support,Structural Analysis Engineer,0,512,0,0
+Support,Structural Engineer,0,512,0,0
+Support,Systems Administrator II,0,0,512,512
+Support,Systems Administrator IV,1024,2048,0,1024
+Support,Teacher,0,512,512,0
+Support,Technical Writer,0,512,512,0
+Support,VP Accounting,0,1024,0,0
+Support,VP Marketing,0,0,0,512
+Support,VP Product Management,0,0,512,0
+Support,VP Quality Control,0,0,0,512
+Support,Web Designer I,512,2048,0,512
+Support,Web Designer II,0,1024,512,0
+Support,Web Designer IV,512,0,512,512
+Support,Web Developer I,0,0,1024,0
+Support,Web Developer II,0,0,0,512
+Support,Web Developer III,0,512,0,0
+Training,Account Coordinator,0,512,0,0
+Training,Account Representative IV,512,0,0,0
+Training,Accountant II,0,0,0,512
+Training,Accountant IV,0,512,0,512
+Training,Accounting Assistant I,0,0,0,512
+Training,Accounting Assistant IV,0,0,0,512
+Training,Actuary,0,0,512,0
+Training,Analog Circuit Design manager,0,512,0,0
+Training,Analyst Programmer,0,0,1024,0
+Training,Budget/Accounting Analyst III,0,0,512,512
+Training,Budget/Accounting Analyst IV,0,0,512,512
+Training,Clinical Specialist,0,0,0,512
+Training,Community Outreach Specialist,512,512,0,1024
+Training,Computer Systems Analyst III,0,0,512,0
+Training,Data Coordiator,0,512,0,0
+Training,Database Administrator II,512,512,0,0
+Training,Database Administrator III,0,0,0,1024
+Training,Dental Hygienist,512,0,0,512
+Training,Design Engineer,0,512,0,0
+Training,Editor,0,512,512,0
+Training,Engineer III,0,0,0,512
+Training,Financial Analyst,0,0,0,512
+Training,Food Chemist,512,512,1024,512
+Training,Geological Engineer,0,0,0,512
+Training,Geologist I,512,0,0,0
+Training,Geologist II,0,512,512,512
+Training,Geologist IV,0,512,0,0
+Training,Graphic Designer,0,512,512,512
+Training,Health Coach III,0,0,512,0
+Training,Health Coach IV,0,512,0,0
+Training,Human Resources Assistant II,0,512,0,0
+Training,Human Resources Assistant IV,0,0,0,512
+Training,Information Systems Manager,0,0,1024,0
+Training,Internal Auditor,0,512,512,0
+Training,Librarian,0,0,0,512
+Training,Mechanical Systems Engineer,512,0,0,0
+Training,Media Manager III,0,0,0,1024
+Training,Nuclear Power Engineer,0,0,512,0
+Training,Office Assistant II,0,0,512,0
+Training,Operator,0,0,512,0
+Training,Paralegal,0,0,0,512
+Training,Pharmacist,0,1024,512,0
+Training,Programmer I,0,0,512,0
+Training,Programmer IV,0,512,512,512
+Training,Quality Control Specialist,0,0,512,0
+Training,Quality Engineer,1024,0,512,0
+Training,Recruiter,0,0,0,1024
+Training,Registered Nurse,512,0,0,0
+Training,Research Assistant IV,512,0,512,1024
+Training,Research Associate,0,0,512,0
+Training,Sales Representative,0,512,512,1024
+Training,Senior Editor,0,512,0,1024
+Training,Senior Financial Analyst,0,0,0,512
+Training,Software Engineer I,0,0,0,512
+Training,Software Engineer III,0,0,512,0
+Training,Software Test Engineer IV,512,0,0,0
+Training,Staff Accountant III,0,0,0,512
+Training,Staff Accountant IV,0,0,512,1024
+Training,Staff Scientist,0,512,1024,0
+Training,Statistician II,512,0,0,0
+Training,Statistician III,0,512,0,0
+Training,Structural Analysis Engineer,512,0,0,0
+Training,Structural Engineer,0,512,0,0
+Training,Systems Administrator II,0,512,0,0
+Training,Systems Administrator IV,512,0,1024,0
+Training,Teacher,0,1024,0,0
+Training,Technical Writer,0,0,512,0
+Training,VP Product Management,512,0,0,0
+Training,VP Quality Control,0,512,0,0
+Training,Web Developer III,0,512,0,0
