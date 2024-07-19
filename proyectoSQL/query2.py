@@ -1,10 +1,17 @@
 import sqlite3
+import csv 
 
 # Create a connection to the database
 conn = sqlite3.connect('employee.db')
 
 # Create a cursor
 c = conn.cursor()
+
+#tables = ("hired_employees", "departments", "jobs")
+#columns = []
+#for table in tables:
+#    c.execute(f"PRAGMA table_info({table});")
+#    columns.extend(c.fetchall())
 
 
 # calculate average # of
@@ -18,20 +25,13 @@ FROM (
 )
 """)
 mean_hired = c.fetchone()[0]
-
-# Define your SQL query
-query # Replace 'your_table' with the name of your table
-c.execute("PRAGMA table_info(your_table)")
-columns = c.fetchall()
-
-for column in columns:
-    print(column)
-c = f"""
+    
+query = f"""
 SELECT d.id, d.department, COUNT(*) as num_hired
 FROM hired_employees e
 JOIN departments d ON e.department_id = d.id
 WHERE strftime('%Y', e.datetime) = '2021'
-GROUP BY dept.id, d.department
+GROUP BY d.id, d.department
 HAVING num_hired > {mean_hired}
 ORDER BY num_hired DESC
 """
@@ -45,6 +45,27 @@ results = c.fetchall()
 # Print the results
 for row in results:
     print(f" {row[0]},  {row[1]}, {row[2]}")
+
+
+# Save he results to a CSV file
+filename = '/Users/daniel.prada/pradamora/proyectoSQL/results2.csv'
+with open(filename, 'w', newline='') as csvfile:
+    writer = csv.writer(csvfile)
+    writer.writerow(['department', 'job', 'q1'])
+    writer.writerows(results)
+
+print(f"CSV file '{filename}' created successfully.")
+
+# Fetch all the results
+c.execute(query)
+results = c.fetchall()
+
+# Define the "columns" variable
+#columns = [column[1] for column in c.description]
+
+#for column in columns:
+#    print(column)
+    
 
 # Close the connection to the database
 conn.close()

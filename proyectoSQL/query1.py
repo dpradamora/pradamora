@@ -12,9 +12,7 @@ cursor = conn.cursor()
 
 cursor.execute("SELECT COUNT(*) FROM hired_employees")
 count = cursor.fetchone()[0]
-if count == 0:
-    print("The hired_employees table is empty.")
-# Execute a query
+
 query =  f"""
 SELECT d.department, j.job, 
     SUM(CASE WHEN strftime('%m', e.datetime) BETWEEN '01' AND '03' THEN 1 ELSE 0 END) AS Q1,
