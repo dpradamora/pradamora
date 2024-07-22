@@ -25,6 +25,8 @@ Clarifications
 
 ### explicacion del condigo creado ###
 
+correr server.py para que se levante el server en local. 
+
 main.py >> es el archivo principal que se ejecuta para correr el programa.
 
 list_tables.py >> es el archivo que contiene la clase ListTables que se encarga de listar las tablas de la base de datos.
