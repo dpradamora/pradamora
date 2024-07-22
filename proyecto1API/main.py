@@ -1,7 +1,6 @@
 import sqlite3
 import pandas as pd
 from flask import Flask, jsonify
-import pandas as pd
 import csv
 
 
@@ -71,7 +70,8 @@ def create_tables():
             job TEXT
         )
     ''')
-    
+create_tables()
+   
 def list_tables():
     conn = sqlite3.connect('employee.db')  
     c = conn.cursor()
@@ -83,58 +83,6 @@ def list_tables():
 
     conn.close()
 
-app = Flask(__name__)
-
-
-@app.route('/hired_employees')
-def hired_employees():
-    conn = sqlite3.connect('employee.db')
-    c = conn.cursor()
-
-    c.execute("SELECT * FROM hired_employees;")
-    employees = c.fetchall()
-
-    conn.close()
-
-    return jsonify(employees)
-
-@app.route('/departments')
-def departments():
-    conn = sqlite3.connect('employee.db')
-    c = conn.cursor()
-
-    c.execute("SELECT * FROM departments;")
-    departments = c.fetchall()
-
-    conn.close()
-
-    return jsonify(departments)
-
-@app.route('/jobs')
-def jobs():
-    conn = sqlite3.connect('employee.db')
-    c = conn.cursor()
-
-    c.execute("SELECT * FROM jobs;")
-    jobs = c.fetchall()
-
-    conn.close()
-
-    return jsonify(jobs)
-
-@app.route('/tables')
-def tables():
-    conn = sqlite3.connect('employee.db')
-    c = conn.cursor()
-
-    c.execute("SELECT name FROM sqlite_master WHERE type='table';")
-    tables = c.fetchall()
-
-    conn.close()
-
-    tables = [table[0] for table in tables]
-
-    return jsonify(tables)
 
 create_tables()
 
@@ -145,5 +93,3 @@ add_data_from_csv(conn, 'departments', '/Users/daniel.prada/Downloads/department
 add_data_from_csv(conn, 'jobs', '/Users/daniel.prada/Downloads/jobs.csv')
 
 
-if __name__ == '__main__':
-    app.run(debug=True, port=4500)
